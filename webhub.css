@@ -1,0 +1,104 @@
+*{
+    box-sizing:border-box;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(118.79deg, #010420 6.44%, #8949CD 52.04%, #010242 98.52%);
+    padding: 30px;
+    background-attachment: fixed;
+}
+img{
+    width:100%;
+    height:auto;
+    border-radius: 50%;
+}
+.img{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.profile-div{
+    width: 500px;
+    height: 600px;
+    background:rgba(255, 255, 255, 0.2);
+    margin:auto;
+    padding:20px;
+    text-align:center;
+    border-radius: 20px;
+    color:white;
+}
+i{
+    font-size: 32px;
+}
+button{
+    margin: 20px 17px;
+    border-radius: 50%;
+    padding: 10px 8px;
+    border:none;
+    height: auto;
+    width:auto;
+}
+.profile-div h1{
+    font-family: "Lato" , sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+h2{
+    font-family: "Lato" , sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 65px;
+}
+.icons{
+    position: relative;
+}
+span{
+    padding: 10px;
+    position: absolute;
+    top:75px;
+    background-color: #010242;
+    font-family: "Lato" , sans-serif;
+    border-radius: 12px;
+    border-top-right-radius: 0;
+    visibility: hidden;
+}
+.instagram{
+    left: 0px;
+}
+.twitter{
+    left: 90px;
+}
+.gmail{
+    left: 210px;
+}
+.website{
+    left: 300px;
+}
+.show{
+    visibility: visible;
+}
+@media (max-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 22.5px;
+    }
+    i{
+        font-size: 30px;
+    }
+    .profile-div{
+        width:100%;
+        border-radius: none;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .profile-div{
+        background: none;
+    }
+}
