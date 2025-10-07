@@ -8,6 +8,7 @@ body{
     background: linear-gradient(118.79deg, #010420 6.44%, #8949CD 52.04%, #010242 98.52%);
     padding: 30px;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 img{
     width:100%;
@@ -102,4 +103,5 @@ span{
         background: none;
     }
 }
+
 
