@@ -5,7 +5,7 @@
     margin: 0;
 }
 body{
-    background: linear-gradient(118.79deg, #010420 6.44%, #8949CD 52.04%, #010242 98.52%);
+    background: linear-gradient(118.79deg, #010420 6.44%, #350f7d 46.73%, #010420 94.09%);
     padding: 30px;
     background-attachment: fixed;
     overflow-x: hidden;
@@ -103,5 +103,6 @@ span{
         background: none;
     }
 }
+
 
 
