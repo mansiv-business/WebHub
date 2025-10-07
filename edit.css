@@ -115,6 +115,15 @@
     .packages{
         padding: 45px;
     }
+    .package h2{
+        font-size: 21px;
+        line-height: 35px;
+    }
+    .package li{
+        font-size: 15px;
+        line-height: 27px;
+        
+    }
 }
 @media (max-width: 400px) {
     .packages{
@@ -124,5 +133,6 @@
 
 
 }
+
 
 
