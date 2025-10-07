@@ -14,6 +14,7 @@
 
     min-height:100vh;
     padding: 60px;
+    overflow-x: hidden;
 }
 .packages{
     display:flex;
@@ -82,8 +83,43 @@
     left: -7px;
 }
 
-@media(max-width: 992px) {
-    .packages{
+
+@media (max-width: 1200px) {
+
+    .package{
+        min-width: 35%;
+    }
+    .package-body{
+        padding: 40px 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .package-body{
+        padding: 40px 100px;
+    }
+     .packages{
         flex-direction: column;
     }
+}
+@media (max-width: 768px) {
+    .package-body{
+        padding: 30px 45px;
+    }
+}
+@media (max-width: 600px) {
+    .package-body{
+        padding: 20px 0px;
+    }
+    .packages{
+        padding: 45px;
+    }
+}
+@media (max-width: 400px) {
+    .packages{
+        padding: 35px 25px;
+    }
+}
+
+
 }
