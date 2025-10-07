@@ -8,7 +8,6 @@ body{
     background: linear-gradient(118.79deg, #010420 6.44%, #350f7d 46.73%, #010420 94.09%);
     padding: 30px;
     background-attachment: fixed;
-    overflow-x: hidden;
 }
 img{
     width:100%;
@@ -53,30 +52,35 @@ h2{
     font-size: 25px;
     margin-top: 65px;
 }
-.icons{
+.icons div{
     position: relative;
+    display:inline-block;
 }
 span{
-    padding: 10px;
+    padding: 9px;
     position: absolute;
-    top:75px;
+    top:72px;
     background-color: #010242;
     font-family: "Lato" , sans-serif;
     border-radius: 12px;
-    border-top-right-radius: 0;
+    border-top-left-radius: 0;
     visibility: hidden;
+    z-index: 2;
 }
 .instagram{
-    left: 0px;
+    left: 60%;
 }
 .twitter{
-    left: 90px;
+    left: 60%;
 }
 .gmail{
-    left: 210px;
+    left: 60%;
 }
 .website{
-    left: 300px;
+    left: 60%;
+}
+.packages{
+    left: 60%;
 }
 .show{
     visibility: visible;
@@ -93,7 +97,8 @@ span{
     }
     .profile-div{
         width:100%;
-        border-radius: none;
+        height:auto;
+        background: none;
     }
 
 }
@@ -103,6 +108,3 @@ span{
         background: none;
     }
 }
-
-
-
